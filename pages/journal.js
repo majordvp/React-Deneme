@@ -1,5 +1,7 @@
 import React from 'react';
-import JournalScreen from '../src/screens/JournalScreen';
+import dynamic from 'next/dynamic';
+
+const JournalScreen = dynamic(() => import('../src/screens/JournalScreen'), { ssr: false });
 
 export default function Journal() {
   return <JournalScreen />;

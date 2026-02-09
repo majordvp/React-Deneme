@@ -1,1 +1,27 @@
 [00:00:02.423] Server  LOG     ✓ Ready in 2s
+[00:01:24.610] Server  LOG     ○ Compiling / ...
+[00:01:27.978] Server  WARN    "shadow*" style props are deprecated. Use "boxShadow".
+[00:01:28.088] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Head`. See https://react.dev/link/warning-keys for more information.
+[00:01:28.091] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Head`. See https://react.dev/link/warning-keys for more information.
+[00:01:28.588] Browser WARN    "shadow*" style props are deprecated. Use "boxShadow".
+[00:01:52.039] Browser ERROR   {}
+[00:01:52.294] Browser ERROR   {}
+[00:01:52.982] Browser ERROR   {}
+[00:01:53.023] Browser ERROR   {}
+[00:01:53.154] Browser ERROR   {}
+[00:01:53.154] Browser ERROR   unhandledRejection: ReferenceError: __DEV__ is not defined
+[00:01:53.154] Browser ERROR   unhandledRejection: ReferenceError: __DEV__ is not defined
+[00:02:02.124] Browser ERROR   {}
+[00:02:02.124] Browser ERROR   unhandledRejection: ReferenceError: __DEV__ is not defined
+[00:02:12.860] Browser ERROR   {}
+[00:02:12.860] Browser ERROR   unhandledRejection: ReferenceError: __DEV__ is not defined
+[00:02:46.547] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:02:47.398] Server  WARN    "shadow*" style props are deprecated. Use "boxShadow".
+[00:02:47.460] Server  ERROR   Each child in a list should have a unique "key" prop.
+
+Check the render method of `Head`. See https://react.dev/link/warning-keys for more information.
+[00:02:47.902] Browser WARN    "shadow*" style props are deprecated. Use "boxShadow".

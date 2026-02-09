@@ -1,7 +1,9 @@
 import React from 'react';
-import DashboardScreen from '../src/screens/DashboardScreen';
-// Next.js için bir Header/Navigasyon bileşeni ekleyebiliriz ilerde.
-// Şimdilik sadece ana ekranı gösteriyoruz.
+import dynamic from 'next/dynamic';
+
+// SSR: false diyerek bu bileşenin sadece tarayıcıda çalışmasını sağlıyoruz.
+// Bu sayede AsyncStorage veya web-özel dosya çakışmalarını önlüyoruz.
+const DashboardScreen = dynamic(() => import('../src/screens/DashboardScreen'), { ssr: false });
 
 export default function Home() {
   return <DashboardScreen />;

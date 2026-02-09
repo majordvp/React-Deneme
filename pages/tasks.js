@@ -1,5 +1,7 @@
 import React from 'react';
-import TasksScreen from '../src/screens/TasksScreen';
+import dynamic from 'next/dynamic';
+
+const TasksScreen = dynamic(() => import('../src/screens/TasksScreen'), { ssr: false });
 
 export default function Tasks() {
   return <TasksScreen />;
